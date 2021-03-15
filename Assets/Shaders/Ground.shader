@@ -19,7 +19,7 @@
 
         CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
-        #pragma surface surf Standard fullforwardshadows tessellate:tess vertex:vert
+        #pragma surface surf Standard addshadow tessellate:tess vertex:vert
 
         #pragma target 5.0
 

@@ -57,11 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/UnderWaterEffect.cs" />
+    <Compile Include="Assets/Scripts/FogEffect.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Shaders/UnderWater.shader" />
      <None Include="Assets/Shaders/Noise.cginc" />
      <None Include="Assets/Shaders/Ground.shader" />
+     <None Include="Assets/Shaders/FogEffect.shader" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.17f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
